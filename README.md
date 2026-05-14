@@ -58,7 +58,7 @@ Socket programming finds applications in various domains, including web developm
 import socket
 from datetime import datetime
 s=socket.socket()
-s.bind(('localhost',000))
+s.bind(('localhost',9000))
 s.listen(5)
 c,addr=s.accept()
 print("Client Address : ",addr)
